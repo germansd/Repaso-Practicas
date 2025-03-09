@@ -1,9 +1,10 @@
-def funcion():
-    print("Hola, soy una función")
+numeros=[4,7,8,9]
 
-funcion ()
+numero_alto=max(numeros)
+print(numero_alto)
 
-def sumar(num1,num2):
-    print(num1+num2)
-    
-sumar(1,2)
+
+numero_peque=min(numeros)
+print(numero_peque)
+
+
